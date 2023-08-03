@@ -30,9 +30,9 @@ class Channel:
     def to_json(self, path):
         data = self.__dict__
         del data['channel']
-        with open(path, 'w', encoding='windows-1251') as f:
+        del data['custom_url']
+        with open(path, 'w', encoding='UTF-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-
 
     def print_info(self) -> None:
         """Выводит в консоль информацию о канале."""
