@@ -107,6 +107,20 @@ files = [
 ]
 
 [[package]]
+name = "dt"
+version = "1.1.61"
+description = "Dynatrace API Python client"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "dt-1.1.61-py3-none-any.whl", hash = "sha256:7b1fbd1dc6820acb0a0efa81eef91f88085a08f1271b9f10b9582905531d8c7b"},
+    {file = "dt-1.1.61.tar.gz", hash = "sha256:8e6d4f8b6fd6fa4f68cc5270590bb1f18e7b31b5c52b37393dfb8d3293245884"},
+]
+
+[package.dependencies]
+requests = ">=2.22"
+
+[[package]]
 name = "flake8"
 version = "6.0.0"
 description = "the modular source code checker: pep8 pyflakes and co"
@@ -244,6 +258,20 @@ files = [
     {file = "idna-3.4-py3-none-any.whl", hash = "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"},
     {file = "idna-3.4.tar.gz", hash = "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"},
 ]
+
+[[package]]
+name = "isodate"
+version = "0.6.1"
+description = "An ISO 8601 date/time/duration parser and formatter"
+optional = false
+python-versions = "*"
+files = [
+    {file = "isodate-0.6.1-py2.py3-none-any.whl", hash = "sha256:0751eece944162659049d35f4f549ed815792b38793f07cf73381c1c87cbed96"},
+    {file = "isodate-0.6.1.tar.gz", hash = "sha256:48c5881de7e8b0a0d648cb024c8062dc84e7b840ed81e864c7614fd3c127bde9"},
+]
+
+[package.dependencies]
+six = "*"
 
 [[package]]
 name = "mccabe"
@@ -415,4 +443,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "ac4ed34f63993780e4ce90436df84a3ccaf39273475f1924c50cace3ef852d89"
+content-hash = "ed335677ffb7bac9201b78b926f680080260f63fd8221a66adbc0e6eb948b7a0"
